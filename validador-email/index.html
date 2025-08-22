@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Validação de E-mail</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="/assets/logo.png" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="caixa-texto">
+        <img
+          src="/assets/bubble.png"
+          alt="Ilustração de newsletter"
+          class="ilustracao"
+        />
+        <h2>Cadastro de Newsletter</h2>
+        <p>
+          Receba dicas exclusivas sobre tecnologia e design direto no seu
+          e-mail.
+        </p>
+        <form id="formEmail">
+          <label for="email">Digite seu e-mail:</label>
+          <input type="text" id="email" name="email" required />
+          <button type="submit">Enviar</button>
+        </form>
+        <p id="mensagem"></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

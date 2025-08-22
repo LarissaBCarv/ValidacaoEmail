@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #b2b2b2, #000000);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #363535;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.ilustracao {
+  width: 250px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+p {
+  font-size: 14px;
+  color: #c5c5c5;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  color: #ffffff;
+}
+
+input[type="text"] {
+  padding: 12px;
+  border: 2px solid #ffffff;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #630051;
+  outline: none;
+}
+
+button {
+  margin-top: 15px;
+  padding: 12px;
+  background-color: #630051;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #330030;
+}
+
+#mensagem {
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.sucesso {
+  color: green;
+}
+
+.erro {
+  color: red;
+}
